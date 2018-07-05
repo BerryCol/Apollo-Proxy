@@ -30,11 +30,11 @@
  * under the License.
  */
 
-package org.jupiter.common.util.internal.logging;
+package org.apollo.util.logging;
 
 /**
- * <em>Internal-use-only</em> logger used by Jupiter. <strong>DO NOT</strong>
- * access this class outside of Jupiter.
+ * <em>Internal-use-only</em> logger used by Apollo. <strong>DO NOT</strong>
+ * access this class outside of Apollo.
  *
  * Forked from <a href="https://github.com/netty/netty">Netty</a>.
  */

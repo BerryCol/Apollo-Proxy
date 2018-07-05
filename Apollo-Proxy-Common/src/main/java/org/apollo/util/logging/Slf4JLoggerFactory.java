@@ -30,7 +30,7 @@
  * under the License.
  */
 
-package org.jupiter.common.util.internal.logging;
+package org.apollo.util.logging;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.helpers.NOPLoggerFactory;

@@ -30,7 +30,7 @@
  * under the License.
  */
 
-package org.jupiter.common.util.internal.logging;
+package org.apollo.util.logging;
 
 import java.util.logging.Logger;
 
