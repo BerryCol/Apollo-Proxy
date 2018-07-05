@@ -2,15 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Apollo-Proxy</artifactId>
+        <groupId>org.Apollo</groupId>
+        <version>0.1</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.Apollo</groupId>
-    <artifactId>Apollo-Proxy</artifactId>
-    <packaging>pom</packaging>
-    <version>0.1</version>
-    <modules>
-        <module>Apollo-Proxy-Common</module>
-    </modules>
+    <artifactId>Apollo-Proxy-Common</artifactId>
 
 
 </project>
