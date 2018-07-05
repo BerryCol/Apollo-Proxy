@@ -10,11 +10,16 @@
     <version>0.1</version>
     <modules>
         <module>Apollo-Proxy-Common</module>
+        <module>Apollo-Proxy-Transport</module>
     </modules>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.7.5</slf4j.version>
+        <netty.version>4.1.20.Final</netty.version>
     </properties>
+
+
 
     <dependencyManagement>
         <dependencies>
@@ -23,6 +28,13 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
+            </dependency>
+
+            <!--Transport begin-->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
